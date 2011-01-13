@@ -1,8 +1,5 @@
 Caching with Core Data: A foursquare case study
-===============================================
-
-Links
------
+-----------------------------------------------
 
 ### foursquare
 
