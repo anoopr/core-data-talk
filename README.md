@@ -1,6 +1,9 @@
 Caching with Core Data: A foursquare case study
 ===============================================
 
+Links
+-----
+
 ### foursquare
 
 * APIv2 Documentation: [http://developer.foursquare.com/](http://developer.foursquare.com/)
