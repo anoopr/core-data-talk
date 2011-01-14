@@ -1,5 +1,7 @@
 # Caching with Core Data: A foursquare case study
 
+## Slides (on one page): [http://anoopr.github.com/core-data-talk/](http://anoopr.github.com/core-data-talk/)
+
 ## Links
 
 ### foursquare
