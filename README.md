@@ -22,7 +22,7 @@
 
 * [Core Data Programming Guide](http://developer.apple.com/library/ios/#documentation/cocoa/Conceptual/CoreData/cdProgrammingGuide.html)
 * [Implementing Find-or-Create Efficiently](http://developer.apple.com/library/ios/documentation/cocoa/Conceptual/CoreData/Articles/cdImporting.html#//apple_ref/doc/uid/TP40003174-SW4)
-* [Concurrency With Core Data](http://developer.apple.com/library/ios/documentation/cocoa/Conceptual/CoreData/Articles/cdBindings.html#//apple_ref/doc/uid/TP40004194-SW1)
+* [Concurrency With Core Data](http://developer.apple.com/library/ios/documentation/cocoa/Conceptual/CoreData/Articles/cdConcurrency.html#//apple_ref/doc/uid/TP40003385-SW1)
 * [Debugging Fetching](http://developer.apple.com/library/ios/documentation/cocoa/conceptual/CoreData/Articles/cdTroubleshooting.html#//apple_ref/doc/uid/TP40002320-SW21)
 
 ### Contact
