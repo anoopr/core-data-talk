@@ -1,0 +1,44 @@
+morsel "asihttprequest" do |m|
+  m.url = 'https://github.com/pokeb/asi-http-request.git'
+  m.files = %w{
+    Classes/ASIHTTPRequestConfig.h
+    Classes/ASIHTTPRequestDelegate.h
+    Classes/ASIProgressDelegate.h
+    Classes/ASICacheDelegate.h
+    Classes/ASIHTTPRequest.h
+    Classes/ASIHTTPRequest.m
+    Classes/ASIDataCompressor.h
+    Classes/ASIDataCompressor.m
+    Classes/ASIDataDecompressor.h
+    Classes/ASIDataDecompressor.m
+    Classes/ASIFormDataRequest.h
+    Classes/ASIInputStream.h
+    Classes/ASIInputStream.m
+    Classes/ASIFormDataRequest.m
+    Classes/ASINetworkQueue.h
+    Classes/ASINetworkQueue.m
+    Classes/ASIDownloadCache.h
+    Classes/ASIDownloadCache.m
+    Classes/ASIAuthenticationDialog.h
+    Classes/ASIAuthenticationDialog.m
+    External/Reachability/Reachability.h
+    External/Reachability/Reachability.m
+  }
+end
+morsel "jsonkit" do |m|
+  m.url = 'https://github.com/johnezang/JSONKit.git'
+  m.files = %w{
+    JSONKit.h
+    JSONKit.m
+  }
+end
+morsel "fully-loaded" do |m|
+  m.url = 'https://github.com/anoopr/fully-loaded.git'
+  m.files = %w{
+    Classes/FullyLoaded.h
+    Classes/FullyLoaded.m
+    Classes/FLImageView.h
+    Classes/FLImageView.m
+    Classes/SynthesizeSingleton.h
+  }
+end
