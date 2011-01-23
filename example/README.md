@@ -11,3 +11,5 @@
 There's not much to the functionality of this app. Its primary function is to demonstrate the design pattern described in my Core Data talk.
 
 Everytime you hit refresh, it grabs the nearby venues from a random location within 0.5 degrees of foursquare HQ and adds it to the Core Data cache.  It uses an NSFetchedResultsController to update the UITableView as these changes happen.
+
+P.S. It's FullyLoaded for some smooth scrolling action while loading images from the network! Check out <http://github.com/anoopr/fully-loaded> for more details.
