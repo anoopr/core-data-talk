@@ -21,9 +21,10 @@
 						   location.coordinate.longitude,
 						   accessToken];
 
-	if (self = [super initWithURL:[NSURL URLWithString:urlString]]) {
-	}
-	return self;
+    self = [super initWithURL:[NSURL URLWithString:urlString]];
+    if (self) {
+    }
+    return self;
 }
 
 - (void)updateManagedObjectContext:(NSManagedObjectContext *)moc {

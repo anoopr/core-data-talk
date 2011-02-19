@@ -3,7 +3,7 @@
 ## Setup
 
 1. Go to <http://foursquare.com/oauth/> and register a new consumer.
-2. Copy `Classes/Constants.h.sample` to `Classes/Constants.h` and update it with your Client ID and Client Secret.
+2. Copy `Classes/Constants.h.sample` to `Classes/Constants.h` and update it with your Client ID, Client Secret, and Callback URL.  You can set the Callback URL to any valid URL.  For security reasons use one under your control.
 3. Run the app!
 
 ## What it does...

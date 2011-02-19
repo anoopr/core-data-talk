@@ -54,7 +54,7 @@
     [super viewDidLoad];
     self.webView = [[[UIWebView alloc] initWithFrame:self.view.bounds] autorelease];
     self.webView.delegate = self;
-    NSString *authenticateURLString = [NSString stringWithFormat:@"https://foursquare.com/oauth2/authenticate?client_id=%@&response_type=token&redirect_uri=%@", CLIENT_ID, REDIRECT_URI];
+    NSString *authenticateURLString = [NSString stringWithFormat:@"https://foursquare.com/oauth2/authenticate?client_id=%@&response_type=token&redirect_uri=%@", CLIENT_ID, CALLBACK_URL];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:authenticateURLString]];
     [self.webView loadRequest:request];
     

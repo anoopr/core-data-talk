@@ -7,5 +7,6 @@
  *
  */
 
-#define CLIENT_ID @""
-#define CLIENT_SECRET @""
+#define CLIENT_ID       @""
+#define CLIENT_SECRET   @""
+#define CALLBACK_URL    @""
