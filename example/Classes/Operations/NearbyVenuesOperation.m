@@ -14,11 +14,12 @@
 @implementation NearbyVenuesOperation
 
 - (id)initWithLocation:(CLLocation *)location {
-	NSString *urlString = [NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?ll=%f,%f&client_id=%@&client_secret=%@",
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *accessToken = [defaults objectForKey:@"access_token"];
+	NSString *urlString = [NSString stringWithFormat:@"https://api.foursquare.com/v2/venues/search?ll=%f,%f&oauth_token=%@",
 						   location.coordinate.latitude, 
 						   location.coordinate.longitude,
-						   CLIENT_ID,
-						   CLIENT_SECRET];
+						   accessToken];
 
 	if (self = [super initWithURL:[NSURL URLWithString:urlString]]) {
 	}

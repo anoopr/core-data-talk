@@ -42,6 +42,7 @@
 		6E37076512EB622200CBEF9F /* NearbyVenuesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E37076412EB622200CBEF9F /* NearbyVenuesOperation.m */; };
 		6E37083A12EB754400CBEF9F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37083912EB754400CBEF9F /* CoreLocation.framework */; };
 		6E370AF912EBC3F700CBEF9F /* category-none.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E370AF812EBC3F700CBEF9F /* category-none.png */; };
+		6E3D50DE131069E8007E9561 /* FoursquareAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3D50DD131069E8007E9561 /* FoursquareAuthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -109,6 +110,8 @@
 		6E37077212EB64FC00CBEF9F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		6E37083912EB754400CBEF9F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6E370AF812EBC3F700CBEF9F /* category-none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "category-none.png"; sourceTree = "<group>"; };
+		6E3D50DC131069E8007E9561 /* FoursquareAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareAuthViewController.h; sourceTree = "<group>"; };
+		6E3D50DD131069E8007E9561 /* FoursquareAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareAuthViewController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CoreDataTalk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CoreDataTalk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +145,8 @@
 				1D3623250D0F684500981E51 /* CoreDataTalkAppDelegate.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				6E3D50DC131069E8007E9561 /* FoursquareAuthViewController.h */,
+				6E3D50DD131069E8007E9561 /* FoursquareAuthViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 				6E37074212EB610F00CBEF9F /* BaseManagedObject.m in Sources */,
 				6E37076212EB61FC00CBEF9F /* BaseDataOperation.m in Sources */,
 				6E37076512EB622200CBEF9F /* NearbyVenuesOperation.m in Sources */,
+				6E3D50DE131069E8007E9561 /* FoursquareAuthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

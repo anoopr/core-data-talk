@@ -13,6 +13,7 @@
 #import "FLImageView.h"
 #import "Venue.h"
 #import "Category.h"
+#import "FoursquareAuthViewController.h"
 
 @interface RootViewController ()
 
@@ -42,6 +43,13 @@
     UIBarButtonItem *refreshButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh)];
     self.navigationItem.rightBarButtonItem = refreshButton;
     [refreshButton release];
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    if (![defaults objectForKey:@"access_token"]) {
+        FoursquareAuthViewController *controller = [[FoursquareAuthViewController alloc] init];
+        [self presentModalViewController:controller animated:NO];
+        [controller release];
+    }
 }
 
 
