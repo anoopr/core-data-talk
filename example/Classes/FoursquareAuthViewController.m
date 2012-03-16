@@ -68,7 +68,13 @@
 }
 
 #pragma mark - Web view delegate
-
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType {
+    if ([request.URL.scheme isEqualToString:@"itms-apps"]) {
+        [[UIApplication sharedApplication] openURL:request.URL];
+        return NO;
+    }
+    return YES;
+}
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
     NSString *URLString = [[self.webView.request URL] absoluteString];
     NSLog(@"--> %@", URLString);
